@@ -335,11 +335,12 @@ ol {
 }
 
 ul {
-    list-style: disc;
+    list-style-type: none;
 }
 
 li {
     display: list-item;
+	list-stle-type: none;
 }
 
 ol, ul {
@@ -348,6 +349,7 @@ ol, ul {
 
 ul li {
     padding-left: .4rem;
+	list-stle-type: none;
 }
 
 ul ul, ul ol, ol ol, ol ul {
@@ -356,7 +358,7 @@ ul ul, ul ol, ol ol, ol ul {
 
 ul.disc li {
     display: list-item;
-    list-style: none;
+    list-style-type: none;
     padding: 0 0 0 .8rem;
     position: relative;
 }
